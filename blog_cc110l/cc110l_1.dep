@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2861885185</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\cc110l_func.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\initial_setup.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc110l_1.pbd</file>
+      <file>$PROJ_DIR$\spi_functions.c</file>
+      <file>$PROJ_DIR$\uart_functions.c</file>
+      <file>$PROJ_DIR$\vlo_rand.s43</file>
+      <file>$PROJ_DIR$\vlo_rand.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\vlo_rand.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_functions.r43</file>
+      <file>$PROJ_DIR$\includefiles.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_setup.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_functions.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\cc110l_registers.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\uart_functions.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_functions.r43</file>
+      <file>$PROJ_DIR$\main_rx.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\main_tx.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\initial_setup.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio_setup.r43</file>
+      <file>$PROJ_DIR$\gpio_setup.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\cc110l_1.d43</file>
+      <file>$PROJ_DIR$\initial_setup.h</file>
+      <file>$PROJ_DIR$\cc110l_func.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_functions.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\initial_setup.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+      <file>$PROJ_DIR$\gpio_setup.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc110l_func.r43</file>
+      <file>$PROJ_DIR$\mspboarddef.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc110l_func.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
+      <file>$PROJ_DIR$\spi_functions.h</file>
+      <file>$PROJ_DIR$\gpio_board1.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cc110l_func.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\initial_setup.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\cc110l_1.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 35 30 17 29 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\spi_functions.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart_functions.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 31 11 15 34 37 28 16 18 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\vlo_rand.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\gpio_setup.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 31 11 15 34 37 28 16 32 18 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 31 11 15 34 37 28 16 32 18 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\cc110l_1.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 36 33 23 21 19 9 13</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
